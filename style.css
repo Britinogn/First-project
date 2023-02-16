@@ -1,23 +1,199 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0;
     margin: 0;
-    background-color: white;
-    font-size: medium;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
 }
 
 .header{
-    margin: 20px;
-    padding: 0;
-    min-height: 100vh;
+    background-color: rgb(218, 15, 69);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
+    padding: 20px 90px;
+    color: white;
 }
 
-.header h1{
-    margin: 0;
-    font-size: 45px;
+.logo h2{
+    color: whitesmoke;
 }
 
-.section{
-    margin-bottom: 40px;
+.logo h2 a{
+    color: white;
+    text-align: left
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+}
+.header ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.header ul li{
+    margin: 0 10px;
+}
+
+.hero{
+    padding-top: 30px;
+    background-color: black;
+}
+
+.hero .container{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.hero-desc{
+    width: 40%;
+}
+
+
+.hero-desc >*{
+    color: #02082c;
+}
+
+.hero-desc h1{
+    font-size: 35px;
+}
+
+.container h1{
+    color: blue;
+}
+
+.hero-desc p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.hero-desc a{
+    display: inline-block;
+    text-decoration: none;
+    background-color:white;
+    color:black;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.container p{
+    color: rgb(26, 26, 25);
+}
+
+.hair-cut{
+    background-color: burlywood;
+    padding-bottom: 50px;
+}
+
+.hair-cut .container{
+    background-color: #aed;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+
+.card{
+    background-color: black;
+    color: white;
+    padding: 40px 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card h2{
+    color: #ef1212;
+}
+
+.card >*{
+    margin: 5px 0;
+}
+
+.why-us{
+    background-color:rgb(20, 14, 210);
+    padding-bottom: 50px;
+}
+
+.why-us h1{
+    text-align: center;
+    color:black;
+}
+
+.why-us p{
+    text-align: center;
+    color: white;
+}
+
+.contact h1{
+    color: white;
+    text-align: center;
+}
+.contact{
+    background-color: #ef1212;
+    color: white;
+}
+
+.contact p{
+    color: white;
+    text-align: center;
+}
+.contact form{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    border: 2px solid white;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.contact form input{
+    background-color: transparent;
+    border: 2px solid white;
+    margin: 10px 0;
+    color: white;
+    font-size: 18px;
+    padding: 15px 10px;
+    border-radius: 15px;
+    outline: 0;
+}
+
+.contact form input::placeholder{
+    color: whitesmoke;
+}
+
+.contact form input[type="submit"]{
+    background-color: #02082c;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #02082c;
+    color: white;
+}
+
+.footer p{
+    text-align: center;
+    font-weight: 700;
 }
